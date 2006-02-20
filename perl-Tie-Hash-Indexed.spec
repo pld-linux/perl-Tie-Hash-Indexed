@@ -8,13 +8,13 @@
 Summary:	Tie::Hash::Indexed - Ordered hashes for Perl
 Summary(pl):	Tie::Hash::Indexed - uporz±dkowane hasze dla Perla
 Name:		perl-Tie-Hash-Indexed
-Version:	0.03
+Version:	0.04
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	dd2436cfd7cf378c5e685baf24b4402b
+# Source0-md5:	4823507164ce236a00cee66e33e71484
 URL:		http://search.cpan.org/dist/Tie-Hash-Indexed/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
