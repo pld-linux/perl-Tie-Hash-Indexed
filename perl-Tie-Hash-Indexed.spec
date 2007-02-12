@@ -6,7 +6,7 @@
 %define	pdir	Tie
 %define	pnam	Hash-Indexed
 Summary:	Tie::Hash::Indexed - Ordered hashes for Perl
-Summary(pl):	Tie::Hash::Indexed - uporz±dkowane hasze dla Perla
+Summary(pl.UTF-8):   Tie::Hash::Indexed - uporzƒÖdkowane hasze dla Perla
 Name:		perl-Tie-Hash-Indexed
 Version:	0.04
 Release:	1
@@ -27,12 +27,12 @@ Tie::IxHash. It's quite a lot faster when it comes to clearing or
 deleting entries from large hashes. Currently, only the plain tying
 mechanism is supported.
 
-%description -l pl
+%description -l pl.UTF-8
 Tie::Hash::Indexed jest bardzo podobny do Tie::IxHash. Jednak jest
-napisany w ca≥o∂ci w XS i zwykle oko≥o dwa razy szybszy niø
-Tie::IxHash. Jest duøo szybszy, je∂li zachodzi potrzeba czyszczenia
-lub usuwania wpisÛw z duøych haszy. Aktualnie obs≥ugiwany jest tylko
-zwyk≥y mechamizm wi±zania.
+napisany w ca≈Ço≈õci w XS i zwykle oko≈Ço dwa razy szybszy ni≈º
+Tie::IxHash. Jest du≈ºo szybszy, je≈õli zachodzi potrzeba czyszczenia
+lub usuwania wpis√≥w z du≈ºych haszy. Aktualnie obs≈Çugiwany jest tylko
+zwyk≈Çy mechamizm wiƒÖzania.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
