@@ -6,7 +6,7 @@
 %define	pdir	Tie
 %define	pnam	Hash-Indexed
 Summary:	Tie::Hash::Indexed - Ordered hashes for Perl
-Summary(pl.UTF-8):   Tie::Hash::Indexed - uporządkowane hasze dla Perla
+Summary(pl.UTF-8):	Tie::Hash::Indexed - uporządkowane hasze dla Perla
 Name:		perl-Tie-Hash-Indexed
 Version:	0.04
 Release:	1
