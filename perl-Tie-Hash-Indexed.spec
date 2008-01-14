@@ -9,7 +9,7 @@ Summary:	Tie::Hash::Indexed - Ordered hashes for Perl
 Summary(pl.UTF-8):	Tie::Hash::Indexed - uporządkowane hasze dla Perla
 Name:		perl-Tie-Hash-Indexed
 Version:	0.05
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -58,7 +58,9 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README TODO
+%dir %{perl_vendorarch}/Tie/Hash
 %{perl_vendorarch}/Tie/Hash/*.pm
+%dir %{perl_vendorarch}/auto/Tie/Hash
 %dir %{perl_vendorarch}/auto/Tie/Hash/Indexed
 %{perl_vendorarch}/auto/Tie/Hash/Indexed/*.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Tie/Hash/Indexed/*.so
