@@ -62,6 +62,5 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorarch}/Tie/Hash/*.pm
 %dir %{perl_vendorarch}/auto/Tie/Hash
 %dir %{perl_vendorarch}/auto/Tie/Hash/Indexed
-%{perl_vendorarch}/auto/Tie/Hash/Indexed/*.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Tie/Hash/Indexed/*.so
 %{_mandir}/man3/*
