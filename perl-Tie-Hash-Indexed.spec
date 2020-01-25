@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Tie
 %define	pnam	Hash-Indexed
 Summary:	Tie::Hash::Indexed - Ordered hashes for Perl
